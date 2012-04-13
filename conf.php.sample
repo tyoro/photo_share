@@ -1,0 +1,18 @@
+<?php
+
+$conf = Array(
+	'mountPoint' => '/photo_share'
+	,'layout' => 'layout'
+	,'dao' => array('event','file','url')
+);
+
+// Databaseの設定
+define("DATABASE_HOST","localhost");
+define("DATABASE_ID","photo_share");
+define("DATABASE_PASS","");
+define("DATABASE_NAME","photo_share");
+
+define("SYSTEM_DEBUG",false);
+define("DATABASE_DEBUG",false);
+
+?>

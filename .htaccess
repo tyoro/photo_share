@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /var/www/tool/photo_share
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /photo_share/index.php [L]
